@@ -1,10 +1,20 @@
+import React from 'react'
+import BannerSlider from '@/components/Carousel/index'
+import '@/styles/global.scss'
+import PopularCategories from '@/components/MainPageCards'
 
 
-
-export default function Home() {
+function MainPage() {
   return (
-    <main>
-     <div></div>
+    <main className=''>
+      <BannerSlider />
+      <div className='container'>
+        <h1 style={{fontSize: 28, paddingTop: 30}}>Популярные категории</h1>
+        <PopularCategories />
+      </div>
     </main>
-  );
+  )
 }
+
+export default MainPage
+

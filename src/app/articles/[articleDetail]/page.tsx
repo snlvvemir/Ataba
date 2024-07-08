@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Detail = () => {
+const Detail = ({params: {articleDetail}}: any) => {
   return (
     <div>
-      123
+      {articleDetail}
     </div>
   )
 }

@@ -1,0 +1,63 @@
+.header__burger_btn {
+    position: relative;
+    display: flex;
+    gap: 5px;
+    height: 40px;
+    padding: 10px 12px;
+    border: none;
+    background: #FA8C16;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.header__burger_btn p{
+    color: white;
+}
+.openCategory {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 1;
+}
+  
+.openCategory span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background: #ffffff;
+    border-radius: 4px;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+  
+.openCategory span:nth-child(1) {
+    top: 5.5px;
+}
+  
+  .openCategory span:nth-child(2) {
+    top: 9.5px;
+  }
+  
+  .openCategory span:nth-child(3) {
+    top: 14px;
+  }
+  
+  .openCategory.open span:nth-child(1) {
+    top: 10px;
+    transform: rotate(135deg);
+  }
+  
+  .openCategory.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .openCategory.open span:nth-child(3) {
+    top: 10px;
+    transform: rotate(-135deg);
+  }
+  
+.header__burger_btn p {
+    font-size: 16px;
+}

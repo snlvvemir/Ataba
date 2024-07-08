@@ -1,0 +1,50 @@
+.card{
+    background-color: #fff;
+    width: 180px;
+    height: 132px;
+    border-radius: 10px;
+}
+
+.ShoesIcon{
+    position: relative;
+    top: -2px;
+    left: 70px;
+}
+.Title{
+    display: flex;
+    width: 10px;
+    font-size: 18px;
+    position: relative;
+    left: 16px;
+    top: 20px;
+}
+.CardsWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 31px;
+}
+.BagIcon{
+    position: relative;
+    top: 24px;
+    left: 70px;
+}
+.TShirt{
+    position: relative;
+    top: -2px;
+    left: 94px;
+}
+.Socks{
+    position: relative;
+    top: -2px;
+    left: 70px;
+}
+.Fertilizers{
+    position: relative;
+    top: 25px;
+    left: 84px;
+}
+.Backpacks{
+    position: relative;
+    top: -2px;
+    left: 80px;
+}

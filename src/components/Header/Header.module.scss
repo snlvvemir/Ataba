@@ -1,4 +1,18 @@
-.container{
-    padding: 20px;
-    background-color: red;
+.header{
+    background-color: #fff;
+}
+.img {
+    position: relative;
+    height: 36px;
+    width: 141.5px;
+}
+.middleMenu{
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 10px;
+}
+.btns_wrapper{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
 }
