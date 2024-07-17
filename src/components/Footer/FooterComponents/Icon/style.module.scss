@@ -1,0 +1,23 @@
+.MainIcon{
+    position: relative;
+    width: 126px;
+    height: 32px;
+}
+.Title{
+    color: #BFBFBF;
+    width: 112px;
+    font-size: 12px;
+}
+.line{
+    background-color: white;
+    opacity: 10%;
+    width: 1px;
+    height: 32px;
+    border-radius: 10px;
+}
+.LogoWrapper{
+    display: flex;
+    width: 263px;
+    justify-content: space-between;
+    padding: 30px 0;
+}

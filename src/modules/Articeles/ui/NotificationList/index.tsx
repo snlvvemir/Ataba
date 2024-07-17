@@ -26,7 +26,7 @@ const NotificationList = () => {
   return (
     <div>
         {notificationArray.map((item, id) => (
-            <Link className='linkStyle' href={`/articles/${id}`}>
+            <Link key={id} className='linkStyle' href={`/articles/${id}`}>
                 <NotificationItem date={item.date} title={item.title} />
             </Link>
         ))}

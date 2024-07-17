@@ -1,0 +1,21 @@
+.card{
+    background-color: #fff;
+    width: 220px;
+    height: 288px;
+    border-radius: 10px;
+}
+.IconWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px;
+}
+.FavBtn{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+.product{
+    position: relative;
+    left: 50px;
+    bottom: 16px;
+}

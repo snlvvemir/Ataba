@@ -1,0 +1,109 @@
+.PopularProduct{
+    width: 220px;
+    padding-top: 24px;
+}
+
+.card{
+    background-color: #fff;
+    width: 220px;
+    height: 288px;
+    border-radius: 10px;
+}
+.FavBtn{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+.IconWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.amountICon {
+    position: relative;
+    width: 8px;
+    height: 13px;
+}
+
+.TextCardWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+    margin-top: 20px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.bottomCard{
+    display: flex;
+    gap: 12px;
+}
+.PriceWrapper{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.PriceText{
+    font-size: 18px;
+    font-weight: 700;
+}
+.ProductText{
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+}
+.favIcon{
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+.StarIcon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.commentIcon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.TimerIcon{
+    position: relative;
+    width: 14px;
+    height: 14px;
+}
+.TimerWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #595959;
+    width: 73px;
+    height: 24px;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    gap: 2px;
+}
+.TimerText{
+    color: white;
+    font-size: 12px;
+}
+.RatingText{
+    color: #8C8C8C;
+}
+.CommentText{
+    color: #8C8C8C;
+}
+.productImg{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    left: 50px;
+    bottom: 16px;
+}

@@ -1,0 +1,35 @@
+.mainText{
+    font-size: 22px;
+}
+.Text{
+    font-size: 16px;
+    padding-top: 30px;
+}
+.navText{
+    font-size: 15px;
+}
+.NavList{
+    padding-top: 16px;
+}
+.MoreBtnWrapper{
+    display: flex;
+    align-items: center;
+    
+    border: none;
+    background-color: transparent;
+    gap: 4px;
+    cursor: pointer;
+}
+.MoreBtnText{
+    font-size: 14px;
+    color: #1890FF;
+    font-weight: 700;
+}
+.TopListWrapper{
+    display: flex;
+    align-items: flex-end;
+    padding: 0 20px;
+}
+.List{
+    width: 280px;
+}

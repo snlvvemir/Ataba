@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react';
 import style from './style.module.scss';
 import icon from '@/components/img/svg/User.svg'; 

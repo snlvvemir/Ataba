@@ -1,0 +1,46 @@
+.PhoneBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.PhoneImg{
+    position: relative;
+    width: 224px;
+    height: 284px;
+}
+.Ataba{
+    color: #FA8C16;
+}
+.MainText{
+    width: 370px;
+    font-size: 22px;
+}
+.QR{
+    position: relative;
+    width: 99px;
+    height: 99px;
+
+}
+.QRImg{
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+}
+.bottomText{
+    font-size: 15px;
+    color: #595959;
+    
+    
+}
+.Text{
+    margin-top: 70px;
+}
+.QRblock{
+    margin-top: 70px;
+}
+.Btns{
+    display: flex;
+    gap: 12px;
+    padding-top: 23px;
+}

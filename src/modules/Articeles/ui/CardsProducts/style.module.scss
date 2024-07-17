@@ -1,0 +1,90 @@
+.PopularProduct{
+    width: 220px;
+    padding-top: 24px;
+}
+
+.card{
+    background-color: #fff;
+    width: 220px;
+    height: 288px;
+    border-radius: 10px;
+}
+.FavBtn{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+.IconWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.amountICon {
+    position: relative;
+    width: 8px;
+    height: 13px;
+}
+
+.TextCardWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+    margin-top: -20px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.bottomCard{
+    display: flex;
+    gap: 12px;
+}
+.PriceWrapper{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.PriceText{
+    font-size: 18px;
+    font-weight: 700;
+}
+.ProductText{
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+}
+.favIcon{
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+.StarIcon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.commentIcon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.RatingText{
+    color: #FA8C16;
+}
+.CommentText{
+    color: #8C8C8C;
+}
+.productImg{
+    position: relative;
+    width: 120px;
+    height: 172px;
+    position: relative;
+    left: 50px;
+    bottom: 16px;
+}

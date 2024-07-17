@@ -1,0 +1,31 @@
+.ArrowDownIcon{
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+
+.ViewMoreBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 296px;
+    height: 48px;
+    border: 1px solid #FA8C16;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.textWrapper{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.textWrapper span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FA8C16;
+}
+.ViewMoreBtnWrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}

@@ -2,30 +2,28 @@
 
 import React, { useState } from 'react';
 import style from './BtnCategory.module.scss';
-import CloseBtn from '@/components/img/svg/CloseModalCategory.svg';
 import clsx from 'clsx';
+import CategoryMenu from './CategoryMenu';
 
-interface ButtonProps {
-  onClick: () => void;
-}
-
-const HamburgerButton: React.FC<ButtonProps> = ({ onClick }) => {
-  const [showIcon, setIcon] = useState(true);
+const HamburgerButton = () => {
+  const [showIcon, setIcon] = useState(false);
 
   const handleClick = () => {
     setIcon(!showIcon);
-    onClick();
   };
 
   return (
-    <button className={style.header__burger_btn} onClick={handleClick}>
-      <div className={clsx(style.openCategory, !showIcon ? style.open : '')}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <p>Категории</p>
-    </button>
+    <div>
+      <button className={style.header__burger_btn} onClick={handleClick}>
+        <div className={clsx(style.openCategory, showIcon ? style.open : '')}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <p>Категории</p>
+      </button>
+      <CategoryMenu IsOpen={showIcon} onClose={handleClick} />
+    </div>
   );
 };
 

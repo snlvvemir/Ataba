@@ -1,0 +1,30 @@
+
+.PopularCategoriesText{
+    font-size: 28px;
+    padding-top: 30px;
+}
+.ArticelesText{
+    font-size: 28px;
+    padding-top: 30px;
+    width: 110px;
+}
+.PopularProductText{
+    font-size: 28px;
+    padding-top: 30px;
+}
+.ArrowRightIcon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.Articles{
+    display: flex;
+}
+.TextWrapper{
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+}
+.ArticlesTitle{
+    font-size: 28px;
+}

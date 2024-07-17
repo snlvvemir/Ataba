@@ -1,0 +1,19 @@
+.buttonStyle{
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    bottom: 50px;
+    right: 40px;
+    background-color: #FA8C16;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 5;
+}
+.ArrowUpIcon{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 22%;
+    bottom: 1px;
+}

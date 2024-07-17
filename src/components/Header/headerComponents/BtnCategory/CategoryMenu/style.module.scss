@@ -1,0 +1,77 @@
+
+.ModalWindow{
+    position: absolute;
+    left: 0;
+    top: 140px;
+    background-color: #fff;
+    height: 101%;
+    width: 100%;
+    z-index: 3;
+}
+.Modal{
+    padding-top: 21px;
+}
+.Line{
+    color: #F0F2F5;
+    width: 100%;
+    height: 1px;
+}
+.CloseBtn{
+    border: none;
+    background-color: transparent;
+}
+.CloseBtnIcon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.Category{
+    font-size: 22px;
+}
+.RightText{
+    font-size: 15px;
+}
+.RightBlockWrapper{
+    display: flex;
+    width: 260px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 0 14px;
+    cursor: pointer;
+    
+    background-color: #fff;
+}
+.Block{
+    padding-top: 8px;
+}
+.RightBlock{
+    padding-top: 20px;
+}
+.Nav{
+    border-right: 1px solid #F0F2F5;
+    width: 280px;
+    height: 100%;
+}
+.RightBlockWrapper_Active{
+    display: flex;
+    width: 260px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 0 14px;
+    cursor: pointer;
+    background-color: #F9FAFB;
+}
+.BlockWrapper{
+    display: flex;
+    gap: 8px;
+}
+.Wrapper{
+    display: flex;
+    justify-content: space-between;
+}
