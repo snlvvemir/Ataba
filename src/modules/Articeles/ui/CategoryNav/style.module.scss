@@ -1,0 +1,26 @@
+.container{
+    background-color: #fff;
+    max-width: 280px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.MainText{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.NavActive{
+    background-color: #FA8C16;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    max-width: 240px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Nav{
+    color: black;
+    font-size: 15px;
+    padding: 8px;
+    cursor: pointer;
+}

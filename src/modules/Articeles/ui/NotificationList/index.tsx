@@ -1,6 +1,7 @@
 import React from 'react'
 import NotificationItem from '../../components/NotificationItem'
 import Link from 'next/link'
+import style from './style.module.scss'
 
 const NotificationList = () => {
     const notificationArray = [
@@ -24,9 +25,9 @@ const NotificationList = () => {
         },
     ]
   return (
-    <div>
+    <div className={style.List}>
         {notificationArray.map((item, id) => (
-            <Link key={id} className='linkStyle' href={`/articles/${id}`}>
+            <Link key={id} className='linkStyle' href={`/notification/${id + 1}`}>
                 <NotificationItem date={item.date} title={item.title} />
             </Link>
         ))}

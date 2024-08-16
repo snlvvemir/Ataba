@@ -6,11 +6,13 @@ import Image from 'next/image'
 import StoreIcon from '@/components/img/svg/Storefront.svg'
 import FireIcon from '@/components/img/svg/FireSimple.svg'
 import NewIcon from '@/components/img/svg/NewIcon.svg'
+import { ROUTER_PATHS } from '@/components/constants/routerPathLink'
+
 
 function BottomMenu() {
   return (
     <div className={style.bottomMenuWrapper}>
-      <Link href={''} className={style.starWrapper}>
+      <Link href={ROUTER_PATHS.main} className={style.starWrapper}>
         <Image src={StarLogo} alt='' width={20} height={20}/>
         <span>TOP Бренды</span>
       </Link>
@@ -29,7 +31,7 @@ function BottomMenu() {
       <Link href={''} className={style.starWrapper}>
         <span>Детям</span>
       </Link>
-      <Link href={''} className={style.starWrapper}>
+      <Link href={ROUTER_PATHS.shoes} className={style.starWrapper}>
         <span>Обувь</span>
       </Link>
       <Link href={''} className={style.starWrapper}>

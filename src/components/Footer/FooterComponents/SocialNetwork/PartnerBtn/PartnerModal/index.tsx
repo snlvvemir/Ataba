@@ -1,6 +1,8 @@
 // components/Modal.tsx
 import React, {useState} from 'react';
 import style from './style.module.scss';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css'
 
 interface PartnerFormProps {
     onClose: () => void;
@@ -45,7 +47,23 @@ interface PartnerFormProps {
         console.error('Ошибка:', error);
       }
     };
-  
+    
+
+
+        const [PhoneNumber, setPhoneNumber] = useState('');
+      const [valid, setValid] = useState(true);
+
+      const handChange = (value: string) => {
+        setPhoneNumber(value);
+        setValid(validDateForNumber(value));
+    };
+
+      const validDateForNumber = (phoneNumber: string) => {
+        const phoneNumberPattern = /^\d{10}$/;
+        return phoneNumberPattern.test(phoneNumber);
+      }
+
+
     return (
       <div className={style.modal} onClick={onClose}>
         <div className={style.modalContent} onClick={(e) => e.stopPropagation()}>
@@ -93,12 +111,16 @@ interface PartnerFormProps {
             </label>
             <label className={style.name}>
             <span className={style.userName}>Телефон</span>
-            <input className={style.input} 
-                type="text"
-                name="phone"
+            <PhoneInput 
+                searchPlaceholder='777-333-111'
+                country={'kg'} 
                 value={formData.phone}
-                onChange={handleChange}
-                placeholder='777-333-111'/>
+                onChange={handChange}
+                placeholder='777-333-111'
+                inputStyle={{
+                  width: '440px',
+                  height: '40px',
+                }}/>
             </label>
             <div className={style.submitBtn}>
             <button className={style.btn} type="submit">Сохранить</button>

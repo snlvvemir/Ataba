@@ -18,7 +18,7 @@ const PartnerBtn: React.FC = () => {
 
   return (
     <div>
-      <button className={style.Btn} onClick={handleOpenModal}>Открыть окно</button>
+      <button className={style.Btn} onClick={handleOpenModal}>Стать партнером</button>
       {showModal && <PartnerForm onClose={handleCloseModal} />}
     </div>
   );

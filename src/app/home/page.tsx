@@ -1,11 +1,10 @@
 import React from 'react'
+import MainPage from '@/page/main/MainPage'
 
 const HomePage = () => {
   return (
     <div>
-
-        <div>123123</div>
-      
+      <MainPage />
     </div>
   )
 }

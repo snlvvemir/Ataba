@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './style.module.scss';
+import Link from 'next/link';
 
 interface LoginModalProps {
     show: boolean;
@@ -20,8 +21,8 @@ const LoginModal: React.FC<LoginModalProps>= ({ show, onClose }) => {
         </button>
         {/* Добавьте формы или кнопки для входа и регистрации */}
         <div className={style.btn_wrapper}>
-          <button className={style.btn}>Войти</button>
-          <button className={style.btn1}>Зарегистрироваться</button>
+          <Link href={'/sign_in'} className={style.btn}>Войти</Link>
+          <Link href={''} className={style.btn1}>Зарегистрироваться</Link>
         </div>
       </div>
     </div>

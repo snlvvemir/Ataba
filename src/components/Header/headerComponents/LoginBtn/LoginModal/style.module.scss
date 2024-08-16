@@ -40,12 +40,17 @@
     width: 72px;
     height: 40px;
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .btn1{
     color: #1890FF;
     font-size: 14px;
     background-color: transparent;
     border: none;
+    display: flex;
+    align-items: center;
   }
   .modal_content button {
     cursor: pointer;

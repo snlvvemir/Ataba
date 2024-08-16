@@ -1,0 +1,43 @@
+.items{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    height: 194px;
+}
+.blockWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #BFBFBF;
+    border-radius: 5px;
+    appearance: none; /* Убирает стандартный стиль */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.checkbox:checked{
+    background-color: #FA8C16;
+    border-color: #FA8C16;
+}
+.checkbox:checked:after{
+    content: '✓';
+    display: block;
+    text-align: center;
+    color: white;
+}
+.inputWrapper{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 220px;
+}
+.dimension{
+    font-size: 15px;
+    font-weight: 400;
+}

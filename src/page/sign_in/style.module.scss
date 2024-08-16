@@ -1,0 +1,80 @@
+.Modal{
+    background-color: #fff;
+    width: 500px;
+    height: 482px;
+    border-radius: 10px;
+    padding: 40px 50px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.mainText{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.ModalWrapper{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: 13px;
+    font-weight: 400;
+}
+.numberInput{
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.passwordInput{
+    width: 400px;
+    height: 48px;
+    padding: 0 12px;
+    border: 1px solid #E0E5EB;
+    border-radius: 5px;
+    outline: none;
+}
+.eyeBtn{
+    position: absolute;
+    right: 10px;
+}
+.password{
+    margin-top: 20px;
+}
+.forgotPasswordBtn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 16px 0;
+    color: #1890FF;
+}
+.SignInBtn{
+    background-color: #FA8C16;
+    width: 400px;
+    height: 48px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.SignInBtn:hover{
+    background-color: #e5851f;
+}
+.LogInBtn{
+    border: 1px solid #1890FF;
+    width: 400px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #1890FF;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.LogInBtn:hover{
+    border: 1px solid #217acc;
+    color: #217acc;
+}

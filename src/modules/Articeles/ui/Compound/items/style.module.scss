@@ -1,0 +1,28 @@
+.input{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #BFBFBF;
+    border-radius: 5px;
+    appearance: none; /* Убирает стандартный стиль */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.input:checked{
+    background-color: #FA8C16;
+    border-color: #FA8C16;
+}
+.input:checked:after{
+    content: '✓';
+    display: block;
+    text-align: center;
+    color: white;
+}
+.inputWrapper{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding-top: 10px;
+}

@@ -1,0 +1,51 @@
+.Btn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 264px;
+    height: 40px;
+    border: 1px solid #FA8C16;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.BtnText{
+    color: #FA8C16;
+    font-size: 14px;
+    font-weight: 400;
+}
+.DetailPageWrapper{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.DetailPage{
+    background-color: #fff;
+    height: 1000px;
+    max-width: 779px;
+    border-radius: 10px;
+}
+.PageText{
+    padding: 0 30px;
+}
+.date{
+    margin-top: 20px;
+    color: #8C8C8C;
+    font-size: 14px;
+}
+.title{
+    padding-top: 8px;
+    font-size: 28px;
+}
+.firstDecription{
+    padding-top: 12px;
+    font-size: 18px;
+    color: #595959;
+}
+.secondDecription{
+    padding-top: 20px;
+    font-size: 18px;
+    color: #595959;
+}

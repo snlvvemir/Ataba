@@ -6,7 +6,6 @@ import Woman from '@/components/img/svg/woman.svg'
 import Man from '@/components/img/svg/man.svg'
 import BabyStroler from '@/components/img/svg/baby-stroller-of-rounded-design-side-view.svg'
 import Snaker from '@/components/img/svg/sneaker.svg'
-import Apple from '@/components/img/svg/apple.svg'
 import Necklace from '@/components/img/svg/necklace.svg'
 import Radio from '@/components/img/svg/radio.svg'
 import Ball from '@/components/img/svg/basketball-ball.svg'
@@ -15,6 +14,8 @@ import Pencil from '@/components/img/svg/pencil.svg'
 import Book from '@/components/img/svg/book.svg'
 import caretRight from '@/components/img/svg/CaretRight.svg'
 import MenuLeft from '../CategoryMenuLeft'
+import AppIcon from '@/components/IconSprite'
+import { AllIcons } from '@/components/IconSprite/all-icons'
 
 interface LoginModalProps {
     IsOpen: boolean;
@@ -72,7 +73,7 @@ const  CategoryMenu: React.FC<LoginModalProps>=({IsOpen, onClose})=> {
                                 <li className={style.Block} >
                                     <button className={style.RightBlockWrapper}>
                                     <div className={style.BlockWrapper}>
-                                        <Image src={Apple} alt=''/>
+                                        <AppIcon id={AllIcons.APPLE}/>
                                         <span className={style.RightText}>Продукты</span>
                                     </div>
                                     <Image src={caretRight} alt=''/>

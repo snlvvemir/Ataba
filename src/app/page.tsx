@@ -1,9 +1,9 @@
-import MainPage from '@/page/main/MainPage'
+import HomePage from './home/page'
 import React from 'react'
 
 function Main() {
   return (
-    <MainPage />
+    <HomePage />
   )
 }
 
